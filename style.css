@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.pink-color {
+  color: rgb(216, 102, 191);
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+/* nav */
+
+nav {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  font-size: 30px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: none;
+}
+
+/* heder */
+
+header {
+  font-size: 20px;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url('/img/home/bulldog-1280.jpg');
+}
+
+.carousel-img-two {
+  background-image: url('/img/home/puppy-1280.jpg');
+}
+
+.carousel-img-three {
+  background-image: url('/img/home/rottweiler-1280.jpg');
+}
+
+/* home */
+
+.home-boxes {
+  padding: 40px 0;
+}
+
+.home-box i {
+  font-size: 38px;
+}
+
+.home-box h3 {
+  font-size: 24px;
+}
+
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url('/img/home/woman-hq.jpg');
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.home-brand h3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/*footer*/
+
+footer {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+/* abousus */
+
+.aboutus-hero {
+  background-image: url('/img/about/puppy-1.jpg');
+  background-position: center;
+  text-align: center;
+}
+
+.aboutus-info .container {
+  padding: 25px 20px;
+}
+
+.aboutus-text {
+  padding: 20px;
+}
+
+.aboutus-title {
+  text-decoration: underline rgb(216, 102, 191);
+}
+
+.aboutus-text h3 {
+  margin-bottom: 5px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline rgb(216, 102, 191);
+}
+
+/* pochylenie */
+.aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* usługi */
+.service-hero {
+  background-image: url('/img/friends-1920.jpg');
+  background-position: center;
+  text-align: center;
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+.service-hero-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.dispklay-3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(216, 102, 191);
+  font-weight: bold;
+}
+
+.text-dog {
+  font-size: 20px;
+}
+
+.h2-dog {
+  font-size: 32px;
+  color: rgb(216, 102, 191);
+  font-weight: bold;
+}
+
+.service-hero-box.box-one {
+  background-image: url('/img/service/chihuahua-1.jpg');
+}
+
+.service-hero-box.box-two {
+  background-image: url('/img/service/dogs-447067__340.jpg');
+}
+
+.service-hero-box.box-three {
+  background-image: url('/img/service/jimmy-dog.jpg');
+}
+
+.service-hero-box.box-four {
+  background-image: url('/img/service/smille-dog.jfif');
+}
+
+/* adopcja */
+
+.projects-hero {
+  background-image: url('/img/adoption/adoption.jpg');
+  background-position: center;
+}
+
+.projects img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* contact */
+
+.contact-hero {
+  background-image: url('/img/contact/contact.jpg');
+  background-position: 0 20%;
+
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.contact-logo {
+  font-size: 34px;
+}
+
+.contact input, 
+.contact select, 
+.contact textarea {
+  font-size: 16px;
+}
+
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 20rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+
+  .aboutus-shadow {
+    box-shadow: inset 0 8px 20px -5px rgba(0,0,0,.6);
+  }
+}
+
+
+
+@media (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-img-one {
+    background-image: url('/img/main-carousel-1-hq.jpg');
+  }
+  
+  .carousel-img-two {
+    background-image: url('/img/main-carousel-2-hq.jpg');
+  }
+  
+  .carousel-img-three {
+    background-image: url('/img/main-carousel-3-hq.jpg');
+  }
+  
+}
+
